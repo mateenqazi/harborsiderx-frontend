@@ -1,0 +1,31 @@
+/*---------Contact Us Page---------*/
+
+.contact-page-title::after {
+    content: '';
+    display: block;
+    width: 140px;
+    height: 2px;
+    background: #fec35c
+}
+
+.contact-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.contact-main-heading {
+    font-weight: bold !important;
+    font-size: 1rem;
+}
+
+.contact-small-heading {
+    color: #fec35c;
+    font-weight: bold !important;
+    font-size: 0.85rem;
+}
+
+.contact-small-description {
+    font-size: 0.8rem;
+    color: darkgrey;
+}

@@ -1,0 +1,291 @@
+/*---------Tadalafil Page---------*/
+
+.treatment-plan-main-container {
+  position: relative;
+  width: 100vw;
+  margin-left: calc((100% - 100vw) / 2);
+}
+
+.text-heading {
+  margin-top: 0.55rem !important;
+  font-size: 3.5rem !important;
+  font-weight: bold !important;
+  font-family: serif !important;
+  word-wrap: break-word;
+  word-spacing: 0.15rem;
+  margin-bottom: 6rem !important;
+  line-height: 4.15rem !important;
+}
+
+.cialis-plan-image {
+  margin-top: 5.5rem;
+}
+
+.text-heading span {
+  color: #fec256;
+}
+
+.primary-button-features {
+  color: black !important;
+  font-weight: bold !important;
+  background-color: #fec156 !important;
+  text-transform: capitalize !important;
+}
+
+.choose-plan-button {
+  margin-top: 3vw;
+  font-size: 1.15rem !important;
+  text-transform: initial !important;
+  padding: 10px !important;
+  height: 55px;
+  width: 300px;
+}
+
+.selecting-treatment-plan-button {
+  width: 230px !important;
+  font-size: 1rem !important;
+  padding-bottom: 12px !important;
+  padding-top: 12px !important;
+  text-transform: initial !important;
+  margin-top: 30px !important;
+}
+
+.selecting-ed-treatment-button {
+  width: 250px !important;
+  font-size: 1rem !important;
+  padding-bottom: 12px !important;
+  padding-top: 12px !important;
+  text-transform: initial !important;
+  margin-top: 30px !important;
+}
+
+.cialis-banner-image {
+  float: right;
+}
+
+.text-image-section {
+  background: #ffff !important;
+  padding-top: 50px !important;
+  padding-bottom: 70px !important;
+}
+.text-image-section-secondary {
+  background: #fffaf2 !important;
+  padding-top: 50px !important;
+  padding-bottom: 70px !important;
+}
+.text-image-section .text-wrapper {
+  margin-top: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-image-section .text-wrapper h1 {
+  margin: 0;
+  font-size: 3rem;
+  word-spacing: 0.55rem;
+}
+
+.text-image-section .text-wrapper h1 span {
+  color: #fec256;
+}
+.text-image-section .img-wrapper {
+  padding: 10px !important;
+}
+.text-image-section .img-wrapper img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.middle-banner-image {
+  max-height: 300px;
+}
+
+.reason-card:hover {
+  background: #fec256;
+  color: white;
+}
+.reason-card-content:hover p {
+  color: white;
+}
+.reason-card .reason-card-icon {
+  transform: rotateY(0deg);
+  transition: 0.5s;
+}
+.reason-card:hover .reason-card-icon {
+  transform: rotateY(180deg);
+  transition: 0.3s;
+}
+
+.treatment-plan-bottom-banner {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+.treatment-plan-middle-banner-image {
+  height: 310px !important;
+}
+
+.treatment-plan-banner-image {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: brightness(0.35);
+}
+
+.treatment-plan-bottom-banner .logo-image {
+  height: 35px;
+  margin-top: 2.15rem;
+  margin-bottom: 3.5vw;
+}
+
+.treatment-plan-bottom-banner .banner-mini-text {
+  color: white;
+  font-size: 1.15rem;
+  margin-bottom: 1.15rem;
+  font-weight: bold;
+}
+
+.treatment-plan-bottom-banner .banner-text {
+  color: white;
+  text-align: center;
+  word-spacing: 0.15rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  font-family: serif;
+}
+.treatment-plan-bottom-banner .banner-button {
+  margin-top: 3vw;
+  font-size: 1.25rem;
+  height: 55px;
+  width: 175px;
+}
+
+/*----------Media queries*/
+@media screen and (max-width: 992px) {
+  .cialis-main-container {
+    padding-bottom: 0 !important;
+  }
+
+  .treatment-page-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .treatment-page-image-container img {
+    width: 100% !important;
+  }
+
+  .cialis-plan-image {
+    margin-top: 3px;
+  }
+
+  .cialis-container-heading {
+    margin-top: 5px !important;
+  }
+
+  .text-heading {
+    font-size: 2.25rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .fda-treatment-container {
+    padding: 10px !important;
+  }
+
+  .text-image-section .img-wrapper img {
+    max-width: 100%;
+  }
+  .text-image-section {
+    padding-top: 0px !important;
+    padding-bottom: 30px;
+  }
+
+  .treatment-plan-middle-banner-image {
+    height: 230px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .middle-banner-container {
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 5px !important;
+    width: 100vw !important;
+  }
+
+  .middle-banner-image img {
+    display: none;
+  }
+
+  .middle-banner-image {
+    display: none;
+  }
+  .middle-banner-text-container {
+    padding-top: 0px !important;
+    padding-right: 12px;
+    padding-left: 10px !important;
+    padding-bottom: 0 !important;
+  }
+  .middle-banner-title {
+    font-size: 1.5rem !important;
+    padding-right: 10px !important;
+  }
+
+  .cialis-text-container {
+    margin-top: 25px !important;
+    margin-left: 12px !important;
+  }
+
+  .text-image-section-secondary {
+    padding-bottom: 10px !important;
+  }
+
+  .cialis-properties-section {
+    padding: 10px !important;
+    margin-left: 0px !important;
+  }
+
+  .cialis-procedure {
+    padding: 10px !important;
+  }
+
+  .cialis-banner-image-conatainer {
+    padding: 35px !important;
+  }
+
+  .tadalafil-bottom-banner-image {
+    height: 350px;
+  }
+
+  .treatment-plan-bottom-banner .logo-image {
+    height: 30px;
+    margin-top: 1.5rem;
+    margin-bottom: 8vw;
+  }
+
+  .treatment-plan-bottom-banner .banner-mini-text {
+    font-size: 1rem;
+  }
+
+  .treatment-plan-bottom-banner .banner-text {
+    font-size: 1.35rem !important;
+  }
+
+  .treatment-plan-bottom-banner .banner-button {
+    height: 45px;
+    width: 110px;
+    font-size: 0.8rem;
+    margin-top: 5vw;
+  }
+}

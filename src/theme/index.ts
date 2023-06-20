@@ -1,0 +1,13 @@
+export const primaryColor = '#fec256';
+export const whiteColor = '#fff';
+export const ashWhiteColor = '#fffaf2';
+export const darkGrayColor = '#787c84';
+export const headingColor = '#2a2a2a';
+export const secondHeadingColor = '#fed180';
+export const thirdHeadingColor = '#9399a2';
+export const forthHeadingColor = '#95989e';
+export const circleColor = '#c0c6d0';
+export const whiteBorderColor = '#e0e0e0';
+export const darkTextColor = '#7c8087';
+export const mediumGrey = '#acaaa6';
+export const blackColor = '#000000';
